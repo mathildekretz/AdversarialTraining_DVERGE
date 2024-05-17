@@ -1,0 +1,16 @@
+{
+    "batch_size": 32,
+    "valid_size": 1024,
+    "num_models": 3,
+    "epochs": 100,
+    "lr": 0.001,
+    "dverge_lr": 0.001,
+    "dverge_epochs": 25,
+    "num_layers": 5,
+    "distill_epsilon": 0.07,
+    "distill_alpha": 0.007,
+    "distill_steps": 10, 
+    "adv_epsilon": 0.03,
+    "adv_alpha": 0.007,
+    "adv_steps": 10
+}
